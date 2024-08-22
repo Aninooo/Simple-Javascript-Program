@@ -1,0 +1,27 @@
+
+ELEMENTS OF DOM
+1. getElementById()
+2. getElementsByName()
+3. getElementsByTagName()
+4.getElementsByClassName()
+5.querySelector() and querySelectorAll()
+
+MANIPULATING HTML elements
+- createElement
+- appendChild
+- textContent
+-innerHTML
+- after
+- append
+- prepend
+- insertAdjacentHTML
+- replaceChild
+- cloneNode
+- removeChild
+- insertBefore
+
+ATTRIBUTE METHODS
+- getAttribute
+- setAttribute
+- hasAttribute
+- removeAttribute
