@@ -1,17 +1,17 @@
-let day = 10;
+let testScore = 85;
+let letterGrade;
 
-switch(day){
-    case 1: 
-    console.log('It is monday');
-    break;
-
-    case 2:
-        console.log('It is Tuesday');
+switch(true){
+    case testScore >= 95:
+        letterGrade = 'A';
         break;
-    
-    case 3:
-        console.log('It is Monday');
-
-    default:
-        console.log(`${day} It is not a day`)
+    case testScore >= 90:
+        letterGrade = 'B';
+        break;
+    case testScore >= 85:
+        letterGrade = 'c';
+        break;
+    default: 
+    console.log('Invalid');
 }
+console.log(letterGrade)
